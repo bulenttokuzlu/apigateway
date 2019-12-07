@@ -21,3 +21,4 @@ RUN go get google.golang.org/grpc/metadata
 RUN go get google.golang.org/grpc/status
 RUN go build -o main . 
 CMD ["/app/main"]
+EXPOSE 8000
